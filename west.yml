@@ -51,7 +51,7 @@ manifest:
     - name: mbedtls
       remote: bauerschwan
       repo-path: zephyr-mbedtls-mod
-      revision: bb997b915d08a8a1ae45966df44a5ae32f308793
+      revision: 33678106202955de2af102625d6ce6d00a2a498b
       path: modules/crypto/mbedtls
     - name: mcuboot
       remote: silabs

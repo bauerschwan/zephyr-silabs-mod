@@ -21,6 +21,8 @@ manifest:
       url-base: https://github.com/zephyrproject-rtos
     - name: silabs
       url-base: https://github.com/siliconlabssoftware
+    - name: bauerschwan
+      url-base: https://github.com/bauerschwan
 
   projects:
     - name: zephyr
@@ -41,13 +43,14 @@ manifest:
           - picolibc
           - segger
           - zcbor
+          - bauerschwan
     - name: hal_silabs
       remote: silabs
       revision: 4db87e248dba7ebcb113c4d9e3d096dd4df22de6
       path: modules/hal/silabs
     - name: mbedtls
-      remote: silabs
-      repo-path: zephyr-mbedtls
+      remote: bauerschwan
+      repo-path: zephyr-mbedtls-mod
       revision: bb997b915d08a8a1ae45966df44a5ae32f308793
       path: modules/crypto/mbedtls
     - name: mcuboot

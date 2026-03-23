@@ -43,7 +43,7 @@ manifest:
           - picolibc
           - segger
           - zcbor
-          - connectedhomeip
+          - openthread
           - bauerschwan
     - name: hal_silabs
       remote: silabs
